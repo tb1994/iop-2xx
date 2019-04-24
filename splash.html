@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--CLASSWORK BRANCH-->
+    <title>Welcome to Splash</title>
+
+<style>
+#hashSign{
+    position: fixed;
+    top: 40%;
+}
+
+.intDiv{
+    border: red dashed thick;
+    position: absolute;
+    top: 50%;
+    left: 35em;
+    width: 300px;
+    height: 30px;
+    margin: auto;
+    transition: all 2s cubic-bezier(0.94, 0.15, 0.21, 0.92);
+    animation: zoomIn 5s linear 2s infinite alternate;
+}
+#intDiv001{
+    background-color: blue;
+    margin-top: -60px;
+    
+}
+#intDiv002{
+    background-color: rgb(0, 255, 34);
+    margin-top: 60px;
+    
+}
+#intDiv003, #intDiv004{
+    Height: 300px;
+    width: 30px;
+    /*margin-left: 75px;*/
+    margin-top: -130px;
+}
+#intDiv003{
+    background-color: rgb(0, 162, 255);
+    margin-left: 65px;
+    margin-left: 85px;
+}
+#intDiv004{
+    background-color: rgb(255, 0, 170);
+    margin-left: 200px;
+    margin-left: 185px;
+}
+@keyframes zoomIn {
+				from {
+					background-color: rgb(0, 255, 0);
+				}
+				to {
+					background-color: rgb(17, 0, 255);
+				}
+			}
+</style>
+
+</head>
+<body>
+    <div class="hashSign"></div>       
+    <div class="intDiv" id="intDiv001"></div>
+    <div class="intDiv" id="intDiv003"></div>
+    <div class="intDiv" id="intDiv002"></div>
+    <div class="intDiv" id="intDiv004"></div>
+</body>
+</html>
